@@ -1,0 +1,38 @@
+from core.colors import GREEN, CYAN, YELLOW, RESET
+from core.utils import clear_screen
+
+
+def show_header():
+    clear_screen()
+
+    print(f"""{GREEN}
+████████╗██╗  ██╗██████╗ ███████╗ █████╗ ████████╗
+╚══██╔══╝██║  ██║██╔══██╗██╔════╝██╔══██╗╚══██╔══╝
+   ██║   ███████║██████╔╝█████╗  ███████║   ██║
+   ██║   ██╔══██║██╔══██╗██╔══╝  ██╔══██║   ██║
+   ██║   ██║  ██║██║  ██║███████╗██║  ██║   ██║
+   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝   ╚═╝
+
+██╗  ██╗██╗   ██╗███╗   ██╗████████╗███████╗██████╗
+██║  ██║██║   ██║████╗  ██║╚══██╔══╝██╔════╝██╔══██╗
+███████║██║   ██║██╔██╗ ██║   ██║   █████╗  ██████╔╝
+██╔══██║██║   ██║██║╚██╗██║   ██║   ██╔══╝  ██╔══██╗
+██║  ██║╚██████╔╝██║ ╚████║   ██║   ███████╗██║  ██║
+╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝
+
+{CYAN}Threat Hunter CLI v0.2 Alpha
+Linux Security Audit & Threat Detection Tool
+{RESET}""")
+
+
+def show_menu():
+    print(f"{YELLOW}[1]{RESET} System Information")
+    print(f"{YELLOW}[2]{RESET} Open Network Ports")
+    print(f"{YELLOW}[3]{RESET} Running Processes")
+    print(f"{YELLOW}[4]{RESET} Firewall Status")
+    print(f"{YELLOW}[5]{RESET} Logged-in Users")
+    print(f"{YELLOW}[6]{RESET} Failed Login Attempts")
+    print(f"{YELLOW}[7]{RESET} Generate Security Report")
+    print(f"{YELLOW}[8]{RESET} Suspicious Process Scanner")
+    print(f"{YELLOW}[0]{RESET} Exit")
+    print("")

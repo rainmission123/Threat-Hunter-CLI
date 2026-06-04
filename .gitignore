@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.db
+*.sqlite
+*.log
+
+config/api_keys.json
+
+reports/txt/*.txt
+reports/html/*.html
+reports/json/*.json
+reports/pdf/*.pdf
+
+.venv/
+venv/
