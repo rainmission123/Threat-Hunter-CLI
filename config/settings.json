@@ -1,0 +1,23 @@
+{
+  "project_name": "Threat Hunter CLI",
+  "version": "0.2-alpha",
+  "default_report_formats": [
+    "txt",
+    "json",
+    "html"
+  ],
+  "file_integrity_paths": [
+    "/etc/passwd",
+    "/etc/shadow",
+    "/etc/group",
+    "/etc/sudoers",
+    "/etc/ssh/sshd_config"
+  ],
+  "suspicious_file_scan_paths": [
+    "/tmp",
+    "/var/tmp",
+    "/dev/shm"
+  ],
+  "max_suspicious_files_to_scan": 5000,
+  "defensive_only": true
+}
