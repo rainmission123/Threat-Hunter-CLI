@@ -1,9 +1,5 @@
 <img width="1910" height="1172" alt="17143bf7-6a3d-4349-87fb-d6af7c9f1eb2" src="https://github.com/user-attachments/assets/3a8b6dd4-49b4-4a4b-b2ac-dcd42b288d36" />
 
-# 🛡️ Threat Hunter CLI
-
-![Threat Hunter CLI](images/threat-hunter.png)
-
 A Linux-based Cyber Security and Threat Hunting Toolkit built with Python.
 
 Threat Hunter CLI is designed for cybersecurity students, SOC analysts, blue team operators, security researchers, and IT professionals who want to perform security auditing, threat hunting, incident response, and threat intelligence investigations directly from the Linux terminal.
